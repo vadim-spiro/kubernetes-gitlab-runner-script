@@ -1,0 +1,8 @@
+gitlabUrl: https://git.rwth-aachen.de/
+runnerRegistrationToken: "exampletoken"
+runners:
+  config: |
+    [[runners]]
+      [runners.kubernetes]
+        allow_privilege_escalation= true
+        
